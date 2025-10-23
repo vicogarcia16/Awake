@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pystray = "*"
+pillow = "*"
+pyinstaller = "*"
+
+[dev-packages]
+
+[scripts]
+ejecutar = "pyinstaller --onefile --windowed --name KeepAwakeTool keep_awake_tray.py"
+
+[requires]
+python_version = "3.13"
